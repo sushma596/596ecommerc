@@ -1,0 +1,15 @@
+create table mytable(productid int(10),productname char(15),price int(11),company varchar(20));
+
+desk mytable;
+
+show Databases;
+
+insert into mytable VALUES('100','watch','50000','fastrack');
+insert into mytable VALUES('101','smartphone','300000','samsong,redmi,realme....');
+insert into mytable VALUES('104','laptop','1500000','fastrack,timesof india...');
+insert into mytable VALUES('203','iphone','400000','dell,lenovo,apple,hp...');
+insert into mytable VALUES('300','washing machine','80000','sony,maxxair....');
+insert into mytable VALUES('500','tracer','15000','electronic company');
+insert into mytable VALUES('400','drivers','100000','electronics');
+
+select *from mytable;
